@@ -1,8 +1,5 @@
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center text-2xl">
-      export default function Home() {
-  return (
     <main className="max-w-3xl mx-auto px-4 py-10 space-y-10 text-gray-800">
       <section className="text-center">
         <h1 className="text-4xl font-bold mb-2">Asha Valluri</h1>
@@ -27,11 +24,18 @@ export default function Home() {
       <section>
         <h2 className="text-2xl font-semibold mb-2">Contact</h2>
         <p>Email: ashavalluri981@gmail.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/asha999v" className="text-blue-600 underline">asha999v</a></p>
+        <p>
+          LinkedIn:{" "}
+          <a
+            href="https://linkedin.com/in/asha999v"
+            className="text-blue-600 underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            asha999v
+          </a>
+        </p>
       </section>
     </main>
-  );
-}
-    </div>
   );
 }
